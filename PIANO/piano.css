@@ -103,15 +103,12 @@ h2 {
     left: 17%;
 }
 .key[data-key="84"] {
-    left: 27%;
-}
-.key[data-key="89"] {
     left: 37%;
 }
-.key[data-key="85"] {
+.key[data-key="89"] {
     left: 47%;
 }
-.key[data-key="79"] {
+.key[data-key="85"] {
     left: 57%;
 }
 .key[data-key="79"] {
