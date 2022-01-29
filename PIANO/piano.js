@@ -15,9 +15,9 @@ function removeTransition(e) {
     if (e.propertyName !== "transtorm") return;
     this.classList.remove("playing");
 }
-function hinsOn(e, index) {
-    e.setAttribute("style", "transition-delay:" + index * 50 + "ms";}
+function hintsOn(e, index) {
+    e.setAttribute("style", "transition-delay:" + index * 50 + "ms");
 }
 hints.forEach(hintsOn);
-key.forEach(key => key.addEventListener("transitionend", removeTransition));
+keys.forEach(key => key.addEventListener("transitionend", removeTransition));
 window.addEventListener("keydown", playNote);
