@@ -11,8 +11,9 @@ function playNote(e) {
     audio.currentTime = 0;
     audio.play();
 }
+//離開物件時
 function removeTransition(e) {
-    if (e.propertyName !== "transtorm") return;
+    if (e.propertyName !== "transform") return;
     this.classList.remove("playing");
 }
 function hintsOn(e, index) {
