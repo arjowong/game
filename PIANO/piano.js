@@ -5,7 +5,7 @@ function playNote(e) {
     const audio = document.querySelector(`audio[data-key="${e.keyCode}"]`),
         key = document.querySelector(`.key[data-key="${e.keyCode}"]`);
     if (!key) return;
-    const ketNote = key.getAttribute("data-note");
+    const keyNote = key.getAttribute("data-note");
     key.classList.add("playing");
     note.innerHTML = keyNote;
     audio.currentTime = 0;
